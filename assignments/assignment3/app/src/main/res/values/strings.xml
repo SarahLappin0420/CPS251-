@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="billAmount">Enter Bill Total</string>
+    <string name="button">Calculate Tip</string>
+    <string name="TextView">Tip amounts will display here</string>
+    <string name="error">PLEASE ENTER A BILL AMOUNT</string>
+    <string name="please_enter_a_bill_amount">Please enter a bill amount.</string>
+
+</resources>
