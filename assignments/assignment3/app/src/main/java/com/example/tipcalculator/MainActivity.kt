@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             val billAmountStr = binding.billAmount.text.toString()
             if (billAmountStr.isEmpty()) {
 
-                binding.textView.text = getString(R.string.please_enter_a_bill_amount)
+                binding.textView.text = getString(R.string.YOU_MUST_ENTER_A_BILL_AMOUNT)
             } else {
                 val billAmount = billAmountStr.toDouble()
                 displayTipAmounts(billAmount)
@@ -35,10 +35,14 @@ class MainActivity : ComponentActivity() {
         val tip15 = billAmount * 1.15
         val tip20 = billAmount * 1.20
 
-        val resultText =
-            "Total with 10% tip: $%.2f\nTotal with 15% tip: $%.2f\nTotal with 20% tip: $%.2f"
-        binding.textView.text = resultText.format(tip10, tip15, tip20)
-    }}
+        /*   val resultText =
+            "Total with 10% tip: $%.2f\nTotal with 15% tip: $%.2f\nTotal with 20% tip: $%.2f" */
+        binding.textView.text =
+            "Total with 10% tip:$${"%.2f".format(tip10)}\n" + "Total with 15% tip: $${
+                "%.2f".format(tip15)
+            }\n" + "Total with 20% tip: $${
+                "%.2f".format(tip20)
+            }"}}
 
 
 

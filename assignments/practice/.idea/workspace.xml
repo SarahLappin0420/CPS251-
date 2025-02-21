@@ -18,8 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef5c5dae-e12d-4d83-9f2c-e1c6493240c1" name="Changes" comment="updates">
-      <change beforePath="$PROJECT_DIR$/../assignment2!/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2!/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/app/src/main/java/com/example/tipcalculator/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/app/src/main/java/com/example/tipcalculator/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sarah Jean/cps251-/CPS251-/assignments/assignment2!"
+    "last_opened_file_path": "C:/Users/Sarah Jean/cps251-/CPS251-/assignments/practice"
   }
 }]]></component>
   <component name="RunManager">
