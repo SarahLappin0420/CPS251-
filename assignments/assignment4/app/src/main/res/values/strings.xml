@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AddnamesSavedata</string>
+    <string name="addName">Button</string>
+    <string name="saveNames">no_names_to_display</string>
+    <string name="noname">no_name_entered</string>
+    <string name="no_name_entered">no name entered\n</string>
+    <string name="add_name">Add Name</string>
+    <string name="no_names_to_display">No names to display</string>
+</resources>
