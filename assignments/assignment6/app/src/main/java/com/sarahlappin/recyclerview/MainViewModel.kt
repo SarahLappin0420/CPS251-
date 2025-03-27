@@ -1,25 +1,32 @@
 package com.sarahlappin.recyclerview
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
+
+import android.view.LayoutInflater
+import android.content.Intent
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModel
-import com.sarahlappin.recyclerview.RandomItem
-class MainViewModel :ViewModel(){
-    private val data = Data() // Assume Data provides titles, details, and image resources
-    private val _items = MutableLiveData<List<RandomItem>>()
-    val items: LiveData<List<RandomItem>> get() = _items
 
-    init {
-        generateRandomItems()
+
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+
+import com.sarahlappin.recyclerview.databinding.ActivityMainBinding // Replace with your actual package name
+
+
+class MainViewModel : ViewModel() {
+    companion object{
+        var intlist: ArrayList<ArrayList<Int>> = arrayListOf()
     }
-
-    private fun generateRandomItems() {
-        val randomList = List(data.titles.size) {
-            RandomItem(
-                title = data.titles.random(),
-                detail = data.details.random(),
-                imageResId = data.images.random()
-            )
+    fun generateArr(): ArrayList<ArrayList<Int>> {
+        if (intlist.isEmpty()) {
+            val num = 7
+            for (i in 0..num) {
+                intlist.add(arrayListOf((0..7).random(), (0..7).random(), (0..7).random()))
+            }
         }
-        _items.value = randomList
+
+
+
+        return intlist
     }
 }
+
