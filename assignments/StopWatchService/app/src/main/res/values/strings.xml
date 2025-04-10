@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StopWatchService</string>
+    <string name="pauseButton">Pause</string>
+    <string name="resetButton">Reset</string>
+    <string name="startButton">Start</string>
+    <string name="timeTxtView">00:00:00</string>
+</resources>
